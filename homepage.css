@@ -1,3 +1,25 @@
 body {
+	overflow: hidden;
+	font-family: 'Lato Light', sans-serif;
+                                                
+}
+
+#header {
 	background-color: #D3D3D3;
+	text-align: center;
+	width: 100%;
+	height: 150px;
+	line-height: 150px;
+	font-size: 20px;
+	vertical-align: middle;
+	display: flex;
+}
+
+#main {
+	text-align: center;
+	margin-top: 5%;
+}
+
+#welcome {
+	font-size: 40px;
 }
