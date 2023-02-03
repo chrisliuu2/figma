@@ -1,7 +1,7 @@
 body{
 	background-color: black;
-	margin-left: 8%;
-	margin-top: 6%;
+	/*margin-left: 8%;
+	margin-top: 6%;*/
 	color: white;
 	font-family: 'Lato Light', sans-serif;
 }
@@ -23,12 +23,14 @@ input[type=submit]{
 	padding: 8px 20px;
 	font-size: 1em;
 	font-weight: bold;
+	border-radius: 4px;
 }
 .lambo_image{
 	width: 100%;
 	height: 100%;
 	border: 2px solid #FFFFFF;
-/*	margin-top: 10%;*/
+	border-radius: 4px;
+	margin-top: 12.5%;
 }
 .row {
   display: flex;
@@ -36,5 +38,5 @@ input[type=submit]{
 
 .column {
   flex: 50%;
-/*  padding: 5px;*/
+  padding: 5px;
 }
