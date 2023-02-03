@@ -6,23 +6,25 @@
 	</head>
 
 	<body>
-		<div id="form">
-			<h1>Submit your details</h1>
-			<form method="POST" action="homepage.html">
-				<label for="fname">Full name:</label><br>
-				<input type="text" id="fname" name="fname"><br>
-				<lable for="email">Email:</lable><br>
-				<input type="text" id="email" name="email"><br>
-				<label for="phone_num">Phone Number:</label><br>
-				<input type="text" id="phone_num" name="phone_num"><br>
-				<input type="checkbox" id="updates" name="updates" value="update">
-				<label for="updates"> I want to receive updates via email.</label><br>
-				<br><br>
-				<input type="submit" value="Submit">
-			</form>
+		<div class="row">
+			<div id="form" class="column">
+				<h1>Submit your details</h1>
+				<form method="POST" action="homepage.html">
+					<label for="fname">Full name:</label><br>
+					<input type="text" id="fname" name="fname"><br>
+					<lable for="email">Email:</lable><br>
+					<input type="text" id="email" name="email"><br>
+					<label for="phone_num">Phone Number:</label><br>
+					<input type="text" id="phone_num" name="phone_num"><br>
+					<input type="checkbox" id="updates" name="updates" value="update">
+					<label for="updates"> I want to receive updates via email.</label><br>
+					<br><br>
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+			<div class="column">
+				<img class="lambo_image" src="images/lambo_img1.jpeg" alt="Picture of Lamborghini Hurican">
+			</div>
 		</div>
-		<!-- <div id="lambo_image"> -->
-			<img src="images/lambo_img1.jpeg" alt="Picture of Lamborghini Hurican">
-		<!-- </div> -->
 	</body>
 </html>
